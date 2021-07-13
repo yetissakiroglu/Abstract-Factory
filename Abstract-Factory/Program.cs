@@ -11,7 +11,7 @@ namespace Abstract_Factory
             CustomOperation customOperationmysql = new CustomOperation(new MySQLDatabaseFactory());
             customOperationmysql.RemoveById(1);
 
-            CustomOperation customOperationmyoracle = new CustomOperation(new MySQLDatabaseFactory());
+            CustomOperation customOperationmyoracle = new CustomOperation(new OracleDatabaseFactory());
             customOperationmyoracle.RemoveById(1);
 
 
